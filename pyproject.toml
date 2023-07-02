@@ -14,7 +14,7 @@ keywords = ["python"]
 [tool.poetry.dependencies]
 python = "^3.11"
 typer = {version = "^0.7.0", extras = ["rich"]}
-importlib-metadata = "^6.6.0"
+scapy = "^2.5.0"
 
 [tool.poetry.group.dev.dependencies]
 flake8-pyproject = "^1.2.3"
